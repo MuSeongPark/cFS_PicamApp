@@ -1,0 +1,3 @@
+
+#define PICAM_APP_VERSION "v1.0"
+#define PICAM_APP_VERSION_STRING " PICAM App Development Build " PICAM_APP_VERSION
