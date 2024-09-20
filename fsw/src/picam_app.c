@@ -268,7 +268,7 @@ int32 PICAM_CapturePhoto(const PICAM_Process_t *Msg)
     PICAM_AppData.CmdCounter++;
     char cmd[100];
     char name[4];
-    sprintf(name, "%d", 1);
+    sprintf(name, "%d", PICAM_AppData.CmdCounter);
     strcpy(cmd, "raspistill -n -o ");
 
     strcat(cmd, "/home/ubuntu/museong/cFS/data/images");
